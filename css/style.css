@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  background-image: linear-gradient(hsla(349, 23%, 86%, 0.329),rgba(0, 0, 255, 0.137)),url('../images/hero_img.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: center;
+}
+.activities .info .social{
+  background-color: salmon;
+  transition: .4s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  padding: 1rem;
+}
+.info .social i {
+  color: white;
+}
+.info .social i:hover{
+  background-color: white;
+  color: salmon;
+}
+section.images img{
+  opacity: .5;
+}
+section.images p{
+  visibility: hidden;
+}
